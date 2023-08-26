@@ -26,7 +26,7 @@ submitbutton.addEventListener("click", (e) => {
     // Retorna ao estado inicial finalizando o código
     return;
   }
-  // Caso a validação seja false segue o código abaizo
+  // Caso a validação seja false segue o código abaixo
   // Cria um List  Item com os valores dos objetos
   const li = document.createElement("li");
   // coloca uma clase ao li
@@ -38,7 +38,7 @@ submitbutton.addEventListener("click", (e) => {
   // limpa os campo dos objetos
   nameinput.value = "";
   emailinput.value = "";
-  // apos tudo acontecer limpa o ul e mostra uma mensagem de sucesso
+  // após tudo acontecer limpa o ul e mostra uma mensagem de sucesso
   setTimeout(() => {
     li.remove();
     errormsg.classList = "login";
